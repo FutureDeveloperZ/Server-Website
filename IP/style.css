@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Minecraft;
+    src: url(minecraftfont.woff);
+}
+
+#play-menu {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    font-family: "Minecraft";
+    color: #fff;
+    text-align: center;
+    z-index: 1000;
+}
+#play-menu h3 {
+    font-family: "Minecraft";
+    margin: 50px 0 100px;
+    text-shadow: 3px 3px 0 #333;
+}
+#play-menu label, #play-menu input, #play-menu button {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1.3em;
+}
+#play-menu label {
+    color: #999;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+#play-menu input {
+    border: 2px solid #666;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    font-weight: normal;
+    text-shadow: 2px 2px 0 #333;
+}
+#play-menu button {
+    border: 2px solid #000;
+    margin: 20px auto;
+    text-align: center;
+    background: #666;
+    padding: 10px;
+    color: #fff;
+    box-shadow: inset -2px 0 0 rgba(0, 0, 0, 0.5), inset 0 -2px 0 rgba(0, 0, 0, 0.5), inset 2px 0 0 rgba(255, 255, 255, 0.5), inset 0 2px 0 rgba(255, 255, 255, 0.5);
+    text-shadow: 2px 2px #333;
+}
+#play-menu button:hover {
+    color: #ffffa0;
+    text-shadow: 2px 2px #3f3f28;
+    background: #828cc1;
+}
